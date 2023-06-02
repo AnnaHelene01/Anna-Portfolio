@@ -8,8 +8,8 @@ import { CardContainer, ImageContainer, ProjectLinks, TextContainer } from '../.
 const Projects = () => {
   return (
     <>
-     <h2 className='mt-5 mb-5'>PROJECTS</h2> 
-     <p>Note that if you visit my LIVE sites and want to register, you have to use @noroff.no 
+     <h2 className='mt-5 mb-2'>PROJECTS</h2> 
+     <p className='mb-5'>Note that if you visit my LIVE sites and want to register, you have to use @noroff.no 
       or @stud.noroff.no for email since Noroff created the REST API that way!
      </p>
      <CardContainer>
