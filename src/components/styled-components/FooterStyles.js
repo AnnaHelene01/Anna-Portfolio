@@ -19,4 +19,7 @@ export const SocialIcons = styled.div`
   a {
     text-decoration: none;
   }
+  @media only screen and (max-width: 510px){
+        gap: 1rem;
+    }
 `;
