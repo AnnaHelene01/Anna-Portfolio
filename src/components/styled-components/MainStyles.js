@@ -163,6 +163,9 @@ export const ContactContainer = styled.div`
         margin-left: 20px;
         margin-right: 20px;
     }
+    @media (max-width: 550px) {
+       padding: 1rem;
+    }
     @media (max-width: 380px) {
         margin-left: 0;
         margin-right: 0;
