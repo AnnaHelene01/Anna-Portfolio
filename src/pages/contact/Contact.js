@@ -45,16 +45,16 @@ const Contact = () => {
         <h4>Contact Form</h4>
         <FormContainer>
           <form onSubmit={handleSubmit} method="POST">
-            <FormInput type='text' placeholder='Name' name='name' />
-            <ValidationError prefix="Name" field="name" errors={state.errors} />
-            <FormInput type='email' placeholder='Email' id='email' name='email'/>
-            <ValidationError prefix="Email" field="email" errors={state.errors} />
-            <FormInput type='message' placeholder='Message' name='message' />
-            <ValidationError prefix="Message" field="message" errors={state.errors} />
-            <div className='text-center mt-4' style={{ backgroundColor: 'white' }}>
-             <RoundedBtn type='submit' disabled={state.submitting}>Send</RoundedBtn>
-             </div>
-        </form>
+              <FormInput type='text' placeholder='Name' name='name' />
+              <ValidationError prefix="Name" field="name" errors={state.errors} />
+              <FormInput type='email' placeholder='Email' id='email' name='email'/>
+              <ValidationError prefix="Email" field="email" errors={state.errors} />
+              <FormInput type='message' placeholder='Message' name='message' />
+              <ValidationError prefix="Message" field="message" errors={state.errors} />
+              <div className='text-center mt-4' style={{ backgroundColor: 'white' }}>
+                <RoundedBtn type='submit' disabled={state.submitting}>Send</RoundedBtn>
+              </div>
+          </form>
         </FormContainer>
      
      </ContactContainer> 

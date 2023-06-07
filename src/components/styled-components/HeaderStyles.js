@@ -38,7 +38,7 @@ export const NavMenu = styled.nav`
     font-family: 'Roboto', sans-serif;
 
     &:hover {
-      color: white;
+      color: #E6EEF2;
     }
   }
 

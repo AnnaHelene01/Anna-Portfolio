@@ -34,6 +34,12 @@ export const RoundedBtn = styled.button`
     padding: 0.9rem 1.7rem;
     background-color: #91B0C1;
     font-weight: 600;
+
+    &:hover {
+      background-color: #F5F5F5;
+      border: 1px solid #91B0C1;
+      color: #91B0C1;
+    }
 `;
 
 export const IconBtn = styled.button`
@@ -50,6 +56,10 @@ export const IconBtn = styled.button`
     font-size: 30px;
     transition: all 0.3s ease;
     cursor: pointer;
+
+    svg {
+      background-color: white;
+    }
 
     &:hover {
         background-color: #91B0C1;
@@ -143,6 +153,9 @@ export const ProjectLinks = styled.div`
         padding-right: 1rem;
         text-decoration: none;
         color: #91B0C1;
+    }
+    a h5:hover {
+      color: black;
     }
 `;
 
